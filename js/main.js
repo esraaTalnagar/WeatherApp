@@ -28,7 +28,7 @@ getWeatherData();
 async function todayWeatherDisplay(city) {
     let cardBox =''
     cardBox += `
-                <div class="card" style="width: 18rem;">
+                <div class="card" style="width: 20rem;">
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item d-flex justify-content-between align-items-center today-header"><h5 class="card-title">${
                           days[day]
@@ -59,7 +59,7 @@ async function todayWeatherDisplay(city) {
 
 async function tomorrowWeatherDisplay(city) {
     let cardBox = '';
-    cardBox += `<div class="card" style="width: 18rem;">
+    cardBox += `<div class="card" style="width: 20rem;">
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item tomorrow-header"><h5 class="card-title">${days[(day + 1) % 7]}</h5></li>
                         <li class="list-group-item">
@@ -86,7 +86,7 @@ async function tomorrowWeatherDisplay(city) {
 
 async function afterTomorrowWeatherDisplay(city) {
     let cardBox = '';
-    cardBox += `<div class="card" style="width: 18rem;">
+    cardBox += `<div class="card" style="width: 20rem;">
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item afterTomorrow-header"><h5 class="card-title">${
                           days[(day + 2) % 7]

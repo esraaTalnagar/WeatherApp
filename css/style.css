@@ -24,3 +24,21 @@ svg{
 .card svg{
     margin-left: 15px;
 }
+section#weatherSection{
+    height: 70dvh;
+    /* margin-bottom: 50px; */
+}
+section#searchSection{
+    height: 30dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    /* align-items: end; */
+}
+.custom-footer{
+    background-color: rgba(230, 230, 230, 0.8);
+    border-top: 1px solid #eee;
+    color: rgb(94, 94, 94);
+    font-weight: bold;
+    padding: 10px;
+}
