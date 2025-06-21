@@ -16,7 +16,7 @@ let months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'A
 
 async function getWeatherData(city){
     const data = await fetch(
-      `http://api.weatherapi.com/v1/forecast.json?key=f02ec07d8a904f6ab84201742252006&q=${city? city : 'cairo'}&days=3&aqi=no&alerts=no`
+      `https://api.weatherapi.com/v1/forecast.json?key=f02ec07d8a904f6ab84201742252006&q=${city? city : 'cairo'}&days=3&aqi=no&alerts=no`
     );
     const weatherData = await data.json();
     await todayWeatherDisplay(weatherData);
