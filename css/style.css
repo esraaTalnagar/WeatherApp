@@ -1,0 +1,26 @@
+body{
+    background: linear-gradient(to bottom, rgba(95, 95, 95, 0.39), rgba(104, 104, 104, 0.39)), url('../imgs/pexels-pixabay-531756.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+svg{
+    color:rgb(110, 160, 160);
+}
+
+.today-header, .tomorrow-header, .afterTomorrow-header
+{
+    background-color: rgba(230, 230, 230, 0.8);
+    border-bottom: 1px solid #eee;
+    color: rgb(94, 94, 94);
+    font-weight: bold;
+    padding: 10px;
+}
+.card{
+    height: 50dvh;
+}
+.card svg{
+    margin-left: 15px;
+}
